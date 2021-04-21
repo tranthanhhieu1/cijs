@@ -2,11 +2,13 @@
     margin: 0;
     padding: 0;
 }
+nav{
+    display: flex;
+}
 .menu > span{
     background-color: coral;
     width: 100px;
     height: 30px;
-    margin-left: 2px;
     text-align: center;
     line-height: 30px;
     display: inline-block;
@@ -15,6 +17,17 @@ span:hover{
     background-color: lightskyblue;
     color: white;
 }
+.menu-block{
+    display: none;
+}
 .menu-block > span{
+    display: block;
+    background-color: yellow;
+    color: black;
+}
+.menu-block span:hover{
+    background-color: red;
+}
+.menu span:hover .menu-block{
     display: block;
 }
