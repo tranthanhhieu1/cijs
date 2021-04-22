@@ -1,0 +1,90 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: #2b58ac;
+    position: fixed;
+    display: flex;
+}
+.box{
+    width: 55%;
+    height: 70%;
+    margin-left: 25%;
+    margin-top: 5%;
+    border-radius: 4%;
+    display: flex;
+}
+.box-picture{
+    width: 50%;
+    height: 100%;
+    background-color: wheat;
+    border-radius: 4% 0 0 4%;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 4% 0 0 4%;
+}
+.box-login{
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 0 4% 4% 0;
+}
+.login{
+    width: 90%;
+    height: 85%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #2b58ac;
+    margin: 40px;
+    font-size: 25px;
+}
+.main-login{
+    width: 100%;
+    height: 75%;
+}
+.btnA{
+    width: 95%;
+    height: 40px;
+    background-color: rgb(244, 246, 248);
+    border-radius: 2px;
+    font-size: 15px;
+    margin-top: 5%;
+}
+.checkbox, .button, .foget-password{
+    margin-top: 5%;
+}
+span{
+    color: #9c9c9c;
+}
+.btnB{
+    width:95%;
+    height: 40px;
+    background-color: #2b58ac;
+    color: white;
+}
+.btnB:hover{
+    background-color: #2f5caf;
+}
+.foget-password a{
+    text-align: right;
+    text-decoration: none;
+}
+.foget-password a p{
+    color: #9c9c9c;
+}
+.footer{
+    text-align: center;
+}
+.footer a{
+    color: #9c9c9c;
+}
