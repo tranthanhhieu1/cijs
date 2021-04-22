@@ -2,18 +2,31 @@
     margin: 0;
     padding: 0;
 }
+nav{
+    display: flex;
+}
 .menu > span{
     background-color: coral;
     width: 100px;
     height: 30px;
-    margin-left: 2px;
     text-align: center;
     line-height: 30px;
     display: inline-block;
 }
 span:hover{
     background-color: lightskyblue;
-    color: white;
+    color: black;
+}
+.menu-block{
+    background-color: yellow;
+    display: none;
+}
+.menu-block span:hover{
+    background-color: red;
+    color: black;
+}
+.menu span:hover .menu-block{
+    display: block;
 }
 .menu-block > span{
     display: block;
